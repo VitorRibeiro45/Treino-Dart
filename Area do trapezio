@@ -1,0 +1,9 @@
+void main(){
+  double base_maior = 15;
+  double base_menor = 7;
+  double altura = 10;
+  
+  double area = ((base_maior + base_menor) * altura) / 2;
+  
+  print('A area do Trapezio é: ' + area.toString());
+}
