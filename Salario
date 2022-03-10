@@ -1,0 +1,8 @@
+void main(){
+  double horas_trabalhadas = 50;
+  double hora_extra = 25;
+  
+  double salario = (horas_trabalhadas * 50) + (hora_extra * 25);
+  
+  print('Salario: ' + salario.toString());
+}
