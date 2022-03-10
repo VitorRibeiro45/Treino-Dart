@@ -1,0 +1,8 @@
+void main() {
+  double preco_convite = 45;
+  double custo_teatro = 5000;
+  
+  double quant_convites = custo_teatro / preco_convite;
+  
+  print('Quantidade de convites: ' + quant_convites.toString());
+}
